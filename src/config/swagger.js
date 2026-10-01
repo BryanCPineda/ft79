@@ -7,7 +7,7 @@ const swaggerSpec = {
   },
   servers: [
     {
-      url: process.env.NODE_ENV = 'production' ? "https://ft79-production.up.railway.app/"  : "http://localhost:3000",
+      url: process.env.NODE_ENV ==='production' ? "https://ft79-production.up.railway.app/"  : "http://localhost:3000",
     },
   ],
   components: {
