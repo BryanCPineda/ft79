@@ -1,0 +1,23 @@
+{
+  "name": "ft79",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "start": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "camilo pineda",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.23.0",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}
