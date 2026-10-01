@@ -11,7 +11,6 @@ const app = express()
 app.use(logginRequest)
 app.use(express.json())
 
-
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
 
